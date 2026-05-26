@@ -11,7 +11,7 @@ class Book extends Model
     protected $fillable = [
         'title',
         'author',
-        'year',
+        'year_publish',
         'publisher',
         'city',
         'cover',
@@ -22,5 +22,4 @@ class Book extends Model
     {
         return $this->belongsTo(Bookshelf::class);
     }
-
 }

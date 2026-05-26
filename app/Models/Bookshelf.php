@@ -9,8 +9,8 @@ class Bookshelf extends Model
     protected $table = 'bookshelves';
 
     protected $fillable = [
-        'name',
-        'location'
+        'code',
+        'name'
     ];
 
     public function books()
